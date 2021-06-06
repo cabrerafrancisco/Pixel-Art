@@ -1,0 +1,216 @@
+
+.contenedores {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  border: double 4px blueviolet;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color:rgb(29, 29, 29);
+  background:#f0f0f0;
+  font:300 1em 'Fira Sans',sans-serif;
+  justify-content:center;
+  align-content:center;
+  align-items:center;
+  text-align:center;
+}
+/* Titulo */
+.bg-4{
+  background: linear-gradient(to right, rgb(112, 55, 218), rgb(172, 93, 237));
+  border-radius: 15px;
+}
+
+.t-stroke {
+	color: #b61b1b00;
+	-moz-text-stroke-width: 2px;
+	-webkit-text-stroke-width: 1.3px;
+	-moz-text-stroke-color: #3f3737;
+	-webkit-text-stroke-color: #e0d9d9;
+	padding: 3px 17px;
+}
+
+/* Estilos inputs numeros */
+.contenedor-tamanio {
+    display: block;
+    
+}
+.contenedor-tamanio > label{
+    font-weight: bold;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+} 
+.contenedor-tamanio > input {
+    max-width: 70px;
+    text-align: center;
+    padding: 7px;
+    border: solid 2px blueviolet;
+    border-radius: 20px;
+    background:#a6aabd;
+    font-size: 14px;
+}
+/* Estilos inputs colores */
+
+.input-color-container {
+  position: relative;
+  overflow: hidden;
+  width: 55px;
+  height: 15px;
+  border: solid 2px rgb(26, 22, 42);
+  border-radius: 15px;
+}
+
+.input-color {
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  width: 100px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
+}
+
+.contenedor-colores {
+	display: flex;
+	padding: 20px 10px 0px 10px;
+	flex-direction: row;
+	align-items: center;
+	width: 250px;
+	justify-content: space-between;
+}
+.contenedor-colores > label{
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  top: 3px;
+} 
+.contenedor-colores > input {
+  border: solid 2px rgb(160, 149, 170);
+  border-radius: 20px;
+}
+
+/* Estilos herramientas */
+
+.contenedor-herramientas{
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  align-items: center;
+  width: 250px;
+  justify-content: space-between;
+}
+.contenedor-herramientas input[type="checkbox"]{
+  display: none;
+}
+.contenedores .contenedor-herramientas label{
+  color: #4c138d;
+  padding: 5px 15px 5px 51px;
+  display: inline-block;
+  position: relative;
+  font-size: 1em;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.contenedores .contenedor-herramientas label::before{
+  content: '';
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background:#a6aabd;
+  border: 3px solid rgb(161, 38, 38);
+  border-radius: 15%;
+  position: absolute;
+  left: 17px;
+  top: 3px;
+}
+
+.contenedor-herramientas input[type="checkbox"]:checked + label {
+	padding: 10px 18px;
+	background: #6370b1;
+	border-radius: 2px;
+	color: #4c138d;
+}
+
+.contenedor-herramientas input[type="checkbox"]:checked + label:before{
+  display: none;
+}
+
+/* Grilla */
+
+#container {
+  position: revert;
+  top: 22%;
+  justify-items: center;
+}
+.grid-container {
+  display: inline-grid;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.caja {
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+/* Botones */
+
+.boton {
+	background-color: #c195ec;
+	width: 45px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: 58%;
+	background-position: center;
+	border-radius: 23px;
+}
+
+#btnLapiz {
+  background-image: url("./img/pencil.png");
+}
+
+#btnGoma {
+  background-image: url("./img/eraser.png");
+}
+
+
+
+/* Boton Reiniciar  */
+
+button {
+	background: 0 0;
+	border: 2px solid;
+	font: inherit;
+	line-height: 1;
+	margin: 0.3em;
+	padding: 12px 2em;
+	border-radius: 20px;
+}
+button{
+  color:var(--color);
+  transition:.25s
+}
+button:focus,button:hover{
+  border-color:var(--hover);
+  color:#3f1a63
+}
+.fill{
+  --color:#3f1a63;
+  --hover:#cb72aa
+}
+.fill:hover{
+  box-shadow:inset 0 0 0 2em var(--hover)
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg-4">
+        <h1 class="t-stroke t-shadow-halftone2">Funny PixelArt</h1>
+   </div>
+    <div class="contenedores">
+        <div class="contenedor-tamanio">
+            <label for="filas">Filas</label>
+            <input type="number" id="numero-filas" name="filas" min="1" max="70">
+            <label for="columnas">Columnas</label>
+            <input type="number" id="numero-columnas" name="columnas" min="1" max="70">
+            <label for="tamanio">Tamaño</label>
+            <input type="number" id="tamanio">
+        </div>
+        <div class="contenedor-colores">
+            <label for="fondo">Fondo:</label>
+            <div class="input-color-container">
+                <input class="input-color" type="color" id="fondo" name="fondo" value="#FFFFFF">
+            </div>
+            <label for="color-lapiz">Color:</label>
+            <div class="input-color-container">
+                <input class="input-color" type="color" id="colorLapiz" name="color-lapiz">
+            </div>   
+        </div>
+        <div class="contenedor-herramientas">
+            <input type="checkbox" id="bordes" name="bordes" checked>
+            <label for="bordes">Bordes</label>
+            <button class="fill" id="btnCrearCuadrilla">Reiniciar</button>
+        </div>
+
+        <div class="contenedor-botones">
+            <button id="btnLapiz" class="boton"></button>
+            <button id="btnGoma" class="boton"></button>
+        </div>
+        <div id="container" class="grid-container"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
