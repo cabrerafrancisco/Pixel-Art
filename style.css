@@ -139,7 +139,8 @@ body {
 	padding: 10px 18px;
 	background: #6370b1;
 	border-radius: 2px;
-	color: #4c138d;
+	color: #18121e;
+	font-weight: bold;
 }
 
 .contenedor-herramientas input[type="checkbox"]:checked + label:before{

@@ -11,7 +11,7 @@ Tendremos distintas opciones a la hora de la edicion a través de un **gran pane
 * **Botones** -> Una seccion con distintos botones con variados estilados cada uno diferente para mostrar algunos usos de css. Vamos a encotrar botones para crear (REINICIAR) , para sacarle los bordes (BORDES) y para seleccionar si vamos a usar el lapiz o el borrador.
 
 Para usar esta aplicación es necesario unicamente entrar al siguiente link: 
-## * https://cabrerafrancisco.github.io/Pixel-Art/
+### https://cabrerafrancisco.github.io/Pixel-Art/
 
 ## Futuras actualizaciones :arrow_up_small: 🔼
 
