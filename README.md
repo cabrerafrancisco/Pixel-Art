@@ -1,5 +1,4 @@
 # Pixel-Art :artist: 
-![Screenshot_1](https://user-images.githubusercontent.com/45265068/120933580-1a801c00-c6d1-11eb-97d0-3913338b0ae1.png)
 ### Ejemplo de creación: 
 ![WhatsApp Image 2021-06-08 at 15 16 14](https://user-images.githubusercontent.com/45265068/121715535-60fcbe80-cab5-11eb-9ce9-f77302e0ed29.jpeg)
 ![WhatsApp Image 2021-06-08 at 15 15 08](https://user-images.githubusercontent.com/45265068/121715544-635f1880-cab5-11eb-9012-c9db8894b8db.jpeg)
